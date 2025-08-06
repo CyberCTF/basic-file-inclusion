@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  talenthub:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - uploads_data:/var/www/html/uploads
+    restart: unless-stopped
+
+volumes:
+  uploads_data: 

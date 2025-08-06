@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Uploaded files (sensitive)
+# uploads/ - Now using Docker volumes instead of bind mounts
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp 

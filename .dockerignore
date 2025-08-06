@@ -1,0 +1,23 @@
+# Git files
+.git
+.gitignore
+
+# Environment variables
+.env
+
+# IDE files
+.vscode
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Uploaded files (sensitive)
+# uploads/ - Now using Docker volumes instead of bind mounts
+
+# Build artifacts (keep build/ for web files)
+# build/ - Contains web files, should be copied 
